@@ -1,5 +1,6 @@
 body {
   border-style: solid;
+  border-radius: 20px;
   font-family: verdana;
   background: #ffeead;
   font-weight: bold;
@@ -7,6 +8,7 @@ body {
 
 nav {
   display: flex;
+  border-radius: 18px;
   align-items: center;
   background: #88d8b0;
   text-align: center;
@@ -15,6 +17,15 @@ nav {
 div {
   display: flex;
   flex-grow: 1;
+}
+
+.rightnav {
+  position: relative;
+}
+
+.quiltscontent {
+  margin: auto;
+  position: absolute;
 }
 
 a {
@@ -30,7 +41,8 @@ p {
 }
 
 .navbutton {
-  transition: all 0.7s;
+  transition: all 1.0s;
+  border-radius: 10px;
 }
 
 .navbutton_child {
@@ -38,6 +50,10 @@ p {
 }
 
 .navbutton:hover {
-  background: black;
-  color: white;
+  background: #ff6f69;
+  color: black;
+}
+
+#problem {
+  position: absolute;
 }
