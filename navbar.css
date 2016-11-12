@@ -1,5 +1,17 @@
+body {
+  border-style: solid;
+  border-radius: 20px;
+  font-family: verdana;
+  background: #ffeead;
+  font-weight: bold;
+}
+
 nav {
   display: flex;
+  border-radius: 18px;
+  align-items: center;
+  background: #88d8b0;
+  text-align: center;
 }
 
 div {
@@ -7,6 +19,41 @@ div {
   flex-grow: 1;
 }
 
-p {
+.rightnav {
+  position: relative;
+}
+
+.quiltscontent {
+  margin: auto;
+  position: absolute;
+}
+
+a {
   flex-grow: 1;
+  justify-content: space-around;
+  text-decoration: none;
+  color: #ffcc5c;
+}
+
+p {
+  background: #88d8b0;
+  padding: 5px;
+}
+
+.navbutton {
+  transition: all 1.0s;
+  border-radius: 10px;
+}
+
+.navbutton_child {
+  position: absolute;
+}
+
+.navbutton:hover {
+  background: #ff6f69;
+  color: black;
+}
+
+#problem {
+  position: absolute;
 }
