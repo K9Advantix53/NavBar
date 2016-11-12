@@ -1,5 +1,7 @@
 nav {
   display: flex;
+  align-items: center;
+  background: #88d8b0;
 }
 
 div {
@@ -9,4 +11,7 @@ div {
 
 p {
   flex-grow: 1;
+  background: red;
+  padding: 5px;
+  justify-content: space-around;
 }
