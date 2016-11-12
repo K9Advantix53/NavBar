@@ -1,7 +1,15 @@
+body {
+  border-style: solid;
+  font-family: verdana;
+  background: #ffeead;
+  font-weight: bold;
+}
+
 nav {
   display: flex;
   align-items: center;
   background: #88d8b0;
+  text-align: center;
 }
 
 div {
@@ -9,9 +17,27 @@ div {
   flex-grow: 1;
 }
 
-p {
+a {
   flex-grow: 1;
-  background: red;
-  padding: 5px;
   justify-content: space-around;
+  text-decoration: none;
+  color: #ffcc5c;
+}
+
+p {
+  background: #88d8b0;
+  padding: 5px;
+}
+
+.navbutton {
+  transition: all 0.7s;
+}
+
+.navbutton_child {
+  position: absolute;
+}
+
+.navbutton:hover {
+  background: black;
+  color: white;
 }
